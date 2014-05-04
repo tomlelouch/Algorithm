@@ -1,10 +1,19 @@
-#include <iostream>
-#include "BST.h"
-#include <vector>
-using namespace std;
+//
+//  main.cpp
+//  BST
+//
+//  Created by Young on 5/2/14.
+//  Copyright (c) 2014 Gatech. All rights reserved.
+//
 
-int main(){
-	BST tree;
+#include <iostream>
+#include <vector>
+#include "BST.h"
+using namespace std;
+int main()
+{
+
+    BST tree;
 	vector<int>sort1;
 	vector<int>sort2;
 	tree.Insert(10);
@@ -25,10 +34,11 @@ int main(){
 		cout<<itr<<" ";
 	}
 	cout<<endl;
-	tree.RemoveNode(10);
+	tree.DeleteNode(14);
 	tree.Inorder_Traversal(sort2);
 	for (auto itr:sort2){
 		cout<<itr<<" ";
 	}
-	return 0;
+    return 0;
 }
+
