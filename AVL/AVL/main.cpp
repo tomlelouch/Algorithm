@@ -13,9 +13,9 @@
 int main(int argc, const char * argv[])
 {
     AVL tree;
-    tree.Insert(1);
-    tree.Insert(3);
-    tree.Insert(2);
+    for (int i=0;i<1000000000;i++){
+        tree.Insert(i);
+    }
     return 0;
 }
 
