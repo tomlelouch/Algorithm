@@ -20,18 +20,15 @@ public:
 	};
 
 	void insert_before(int n){
-		if (head==nullptr){
+		if (head==nullptr)
 			cursor=head=new list_element(n,head);
-		}
-		else {
+		else 
 			head=new list_element(n,head);
-		}
 	};
 
 	void insert_after(int n){
-		if (head==nullptr){
+		if (head==nullptr)
 			cursor=head=new list_element(n,head);
-		}
 		else {
 			while(cursor->next!=nullptr)
 			cursor=cursor->next;
