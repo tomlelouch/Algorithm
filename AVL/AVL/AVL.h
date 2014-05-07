@@ -30,10 +30,15 @@ class AVL{
 public:
     AVL()=default;
     void Insert(int key);
-    
+    void Delete(int key);
+    int FindSmallest();
+    TreeNode*& Search(int key);
 private:
     TreeNode* root = nullptr;
     TreeNode*& InsertPrivate(int key , TreeNode *&node);
+    TreeNode*& DeletePrivate(int key , TreeNode *&node);
+    TreeNode*& SearchPrivate(int key , TreeNode *&node);
+    int FindSmallestPrivate(TreeNode *&node);
     int Height(TreeNode *node);
     int Max(int a , int b);
     TreeNode* SingleRotationwithLeft(TreeNode *&node);
@@ -46,8 +51,20 @@ inline void AVL::Insert(int key){
     InsertPrivate(key , root);
 }
 
+inline void AVL::Delete(int key){
+    DeletePrivate(key , root);
+}
+
+inline TreeNode*& AVL::Search(int key){
+    return SearchPrivate(key , root);
+}
+
+
+inline int AVL::FindSmallest(){
+    return FindSmallestPrivate(root);
+}
+
 inline int AVL::Height(TreeNode *node){
-    
     return node == nullptr ? -1 : node->height;
 }
 
