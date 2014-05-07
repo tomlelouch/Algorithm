@@ -13,7 +13,7 @@
 int main(int argc, const char * argv[])
 {
     AVL tree;
-    for (int i=0;i<1000000000;i++){
+    for (int i=0;i<100;i++){
         tree.Insert(i);
     }
     return 0;
