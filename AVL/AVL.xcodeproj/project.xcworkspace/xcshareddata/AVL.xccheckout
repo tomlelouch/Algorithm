@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F97E0480-F552-458D-8B56-084D7442706B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AVL</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>24B4B098-6491-44CF-A778-6803CD862861</key>
+		<string>https://github.com/homyoung/Algorithm.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AVL/AVL.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>24B4B098-6491-44CF-A778-6803CD862861</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/homyoung/Algorithm.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>24B4B098-6491-44CF-A778-6803CD862861</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24B4B098-6491-44CF-A778-6803CD862861</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Algorithm</string>
+		</dict>
+	</array>
+</dict>
+</plist>
