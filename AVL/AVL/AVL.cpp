@@ -232,6 +232,7 @@ TreeNode*& AVL::DeleteRoot(TreeNode *&node){
         delete Temp;
         return root;
     }
+    
     // case 2 --- only right child
     else if ( root->right == nullptr && root->right != nullptr){
         root = Temp->right;
@@ -239,6 +240,7 @@ TreeNode*& AVL::DeleteRoot(TreeNode *&node){
         delete Temp;
         return root;
     }
+    
     // case 3 --- two children
     else{
         SmallestKeyInRightSubTree = FindSmallestPrivate( root->right );

@@ -31,7 +31,7 @@ void mergesort(int a[],int len){
 }
 
 int main(){
-	const int s=1000000;
+	const int s=100000000;
 
 	clock_t start1=clock();
 	int *a=new int[s];
