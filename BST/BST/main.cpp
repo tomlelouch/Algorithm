@@ -39,6 +39,7 @@ int main()
 	for (auto itr:sort2){
 		cout<<itr<<" ";
 	}
+    cout<<endl;
     return 0;
 }
 
