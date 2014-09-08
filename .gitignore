@@ -9,26 +9,38 @@
 
 ### Above combination will ignore all files without extension ###
 
-# Ignore files with extension `.class` & `.sm`
-*.class
-*.sm
 
-# Ignore `bin` dir
-bin/
-# or
-*/bin/*
 
-# Unignore all `.jar` in `bin` dir
-!*/bin/*.jar
 
-# Ignore all `library.jar` in `bin` dir
-*/bin/library.jar
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Ignore a file with extension
-relative/path/to/dir/filename.extension
+# Precompiled Headers
+*.gch
+*.pch
 
-# Ignore a file without extension
-relative/path/to/dir/anotherfile
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
 
 *.class
 
@@ -42,3 +54,6 @@ relative/path/to/dir/anotherfile
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+
