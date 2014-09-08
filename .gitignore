@@ -1,11 +1,44 @@
-./matrix
-./.git/hooks/update.sample
-./.git/hooks/post-update.sample
-./.git/hooks/pre-push.sample
-./.git/hooks/commit-msg.sample
-./.git/hooks/applypatch-msg.sample
-./.git/hooks/pre-commit.sample
-./.git/hooks/pre-applypatch.sample
-./.git/hooks/pre-rebase.sample
-./.git/hooks/prepare-commit-msg.sample
-./match
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension ###
+
+# Ignore files with extension `.class` & `.sm`
+*.class
+*.sm
+
+# Ignore `bin` dir
+bin/
+# or
+*/bin/*
+
+# Unignore all `.jar` in `bin` dir
+!*/bin/*.jar
+
+# Ignore all `library.jar` in `bin` dir
+*/bin/library.jar
+
+# Ignore a file with extension
+relative/path/to/dir/filename.extension
+
+# Ignore a file without extension
+relative/path/to/dir/anotherfile
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
